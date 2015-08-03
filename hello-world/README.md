@@ -2,7 +2,7 @@
 
 ## How to run with Maven
 
-- Move to hello-world folder
+- Move to hello-world module folder
 - Run the following:
 
         $ mvn clean package

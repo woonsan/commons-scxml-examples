@@ -6,12 +6,6 @@ This project provides examples using Apache Commons SCXML (http://commons.apache
 
 ## Examples
 
-### Hello World
-
-- Move to hello-world folder
-- Run the following:
-
-    $ mvn clean package
-    $ mvn exec:java -Dexec.mainClass=com.github.woonsan.commons.scxml.examples.helloworld.Main
+- [Hello World](hello-world/)
 
 ### TODO

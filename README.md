@@ -7,5 +7,6 @@ This project provides examples using Apache Commons SCXML (http://commons.apache
 ## Examples
 
 - [Hello World](hello-world/)
+- [StopWatch](stopwatch/)
 
 ### TODO

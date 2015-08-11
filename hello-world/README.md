@@ -2,14 +2,14 @@
 
 ## How to run with Maven
 
-- Move to hello-world folder
+- Move to hello-world module folder
 - Run the following:
 
-    $ mvn clean package
-    $ mvn exec:java
+        $ mvn clean package
+        $ mvn exec:java
 
 - You will see a message like the following:
 
-    [INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ commons-scxml-examples-hello-world ---
-    Aug 03, 2015 8:12:59 AM org.apache.commons.scxml2.SCXMLExecutionContext execute
-    INFO: null: Hello, World!
+        [INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ commons-scxml-examples-hello-world ---
+        Aug 03, 2015 8:12:59 AM org.apache.commons.scxml2.SCXMLExecutionContext execute
+        INFO: null: Hello, World!

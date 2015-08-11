@@ -1,4 +1,4 @@
-# Hello World example in Apache Commons SCXML
+# Hello World example with Apache Commons SCXML
 
 ## How to run with Maven
 

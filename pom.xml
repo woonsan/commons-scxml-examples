@@ -63,6 +63,7 @@
 
   <modules>
     <module>hello-world</module>
+    <module>stopwatch</module>
   </modules>
 
 </project>

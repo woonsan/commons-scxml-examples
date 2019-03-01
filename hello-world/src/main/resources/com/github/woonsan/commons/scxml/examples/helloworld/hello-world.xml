@@ -14,12 +14,27 @@
   governing permissions and limitations under the License.
 -->
 <scxml xmlns="http://www.w3.org/2005/07/scxml" version="1.0"
-       initial="hello">
+       initial="Start">
 
-  <final id="hello">
+  <datamodel>
+    <data id="message" expr="&quot;Sorry, I do not know you!&quot;" />
+  </datamodel>
+
+  <state id="Start">
     <onentry>
-      <log expr="'Hello, World!'" />
+      <assign location="message" expr="&quot;Hello, mate!&quot;" />
     </onentry>
+    <transition target="Greeting" />
+  </state>
+
+  <state id="Greeting">
+    <onentry>
+      <log expr="message" />
+    </onentry>
+    <transition target="End" />
+  </state>
+
+  <final id="End">
   </final>
 
 </scxml>

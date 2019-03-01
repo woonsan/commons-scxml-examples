@@ -43,7 +43,13 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-jexl</artifactId>
-      <version>${commons-jexl.version}</version>
+      <version>${commons-jexl2.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-jexl3</artifactId>
+      <version>${commons-jexl3.version}</version>
     </dependency>
 
   </dependencies>

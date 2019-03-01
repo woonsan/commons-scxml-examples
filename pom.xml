@@ -58,7 +58,11 @@
 
   <properties>
     <commons-scxml.version>2.0-SNAPSHOT</commons-scxml.version>
-    <commons-jexl.version>2.1.1</commons-jexl.version>
+    <!--
+    <commons-scxml.version>2.0-M1</commons-scxml.version>
+    -->
+    <commons-jexl2.version>2.1.1</commons-jexl2.version>
+    <commons-jexl3.version>3.1</commons-jexl3.version>
   </properties>
 
   <modules>
